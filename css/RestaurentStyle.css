@@ -26,6 +26,35 @@ body {
   margin-bottom: 40px;
 }
 
+.container .header .logo {
+  text-decoration: none;
+}
+
+.container .header .logo .gif-logo {
+  margin-right: 10px;
+}
+
+.container .header .logo .logo-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: -60px;
+  margin-left: 80px;
+  font-family: Pushster, Roboto, sans-serif;
+  font-size: 22px;
+  color: #302C34;
+}
+
+.container .header .logo .logo-text::hover {
+  color: #595959;
+}
+
 .container .header .input-address {
   -webkit-box-flex: 0.8;
       -ms-flex: 0.8;
@@ -67,20 +96,25 @@ body {
   color: #302C34;
   font-size: 16px;
   line-height: 24px;
-  -webkit-transition: 0.5s 0.1s ease;
-  transition: 0.5s 0.1s ease;
+  -webkit-transition: 0.3s 0.1s ease;
+  transition: 0.3s 0.1s ease;
 }
 
 .container .header .buttons .button-cart:hover {
   cursor: pointer;
   background: darkorange;
-  color: #ffffff;
 }
 
-.container .header .buttons .button-cart .shopping-cart-button {
-  margin-right: 10px;
-  margin-bottom: 2px;
-  vertical-align: middle;
+.container .header .buttons .button-cart .button-link {
+  text-decoration: none;
+}
+
+.container .header .buttons .button-cart .text-button {
+  color: #302C34;
+}
+
+.container .header .buttons .button-cart .text-button:hover {
+  color: #ffffff;
 }
 
 .container .header .button-primary {
@@ -94,8 +128,8 @@ body {
   font-size: 16px;
   line-height: 24px;
   margin-right: 15px;
-  -webkit-transition: 0.5s 0.1s ease;
-  transition: 0.5s 0.1s ease;
+  -webkit-transition: 0.3s 0.1s ease;
+  transition: 0.3s 0.1s ease;
 }
 
 .container .header .button-primary:hover {
@@ -103,10 +137,12 @@ body {
   background: darkorange;
 }
 
-.container .header .button-primary .user-button {
-  margin-right: 6px;
-  margin-bottom: 1px;
-  vertical-align: middle;
+.container .header .button-primary .button-link {
+  text-decoration: none;
+}
+
+.container .header .button-primary .text-button {
+  color: #ffffff;
 }
 
 .main {
@@ -126,7 +162,12 @@ body {
   font-weight: bold;
   font-size: 36px;
   line-height: 42px;
-  margin-top: -7px;
+}
+
+.main .container .restuarants .section-heading .gif-title {
+  width: 64px;
+  height: 64px;
+  margin: 10px 5px;
 }
 
 .main .container .restuarants .section-heading .restaurent-heading {
@@ -136,7 +177,7 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin: 0px 0px 35px 850px;
+  margin: 0px 0px 0px 30px;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
 }
@@ -203,13 +244,13 @@ body {
   margin-bottom: 40px;
   -ms-flex-preferred-size: 30%;
       flex-basis: 30%;
-  -webkit-transition: 0.8s 0.1s ease;
-  transition: 0.8s 0.1s ease;
+  -webkit-transition: 0.3s 0.1s ease;
+  transition: 0.3s 0.1s ease;
 }
 
 .cards .card:hover {
-  -webkit-box-shadow: 6px 0px 20px #6e6c6ce5;
-          box-shadow: 6px 0px 20px #6e6c6ce5;
+  -webkit-box-shadow: 0px 3px 25px #6e6c6ce5;
+          box-shadow: 0px 3px 25px #6e6c6ce5;
 }
 
 .cards .card .card-link {
@@ -222,6 +263,13 @@ body {
   -o-object-fit: cover;
      object-fit: cover;
   padding-left: 80px;
+}
+
+.cards .card .card-image-tanuki {
+  width: 100%;
+  height: 250px;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .cards .card .card-text {
@@ -305,8 +353,8 @@ body {
   font-size: 16px;
   line-height: 24px;
   margin-right: 15px;
-  -webkit-transition: 0.5s 0.1s ease;
-  transition: 0.5s 0.1s ease;
+  -webkit-transition: 0.3s 0.1s ease;
+  transition: 0.3s 0.1s ease;
 }
 
 .cards .card .card-text .card-buttons .button-primary:hover {
@@ -353,6 +401,35 @@ body {
           justify-content: space-between;
 }
 
+.footer .container .footer-block .logo {
+  text-decoration: none;
+}
+
+.footer .container .footer-block .logo .gif-logo {
+  margin-right: 10px;
+}
+
+.footer .container .footer-block .logo .logo-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: -60px;
+  margin-left: 80px;
+  font-family: Pushster, Roboto, sans-serif;
+  font-size: 22px;
+  color: #302C34;
+}
+
+.footer .container .footer-block .logo .logo-text:hover {
+  color: #595959;
+}
+
 .footer .container .footer-nav {
   margin-right: auto;
   margin-left: 35px;
@@ -366,8 +443,8 @@ body {
   font-weight: normal;
   font-size: 18px;
   line-height: 21px;
-  -webkit-transition: 0.5s 0.1s ease;
-  transition: 0.5s 0.1s ease;
+  -webkit-transition: 0.3s 0.1s ease;
+  transition: 0.3s 0.1s ease;
 }
 
 .footer .container .footer-nav .footer-link:hover {
@@ -396,11 +473,11 @@ body {
     max-width: 1200px;
   }
   .main .container .restuarants .section-heading .restaurent-heading .rating-heading .star-rating {
-    margin-left: 550px;
+    margin-left: 30px;
   }
   .main .container .cards .card {
-    -webkit-transition: 0.8s 0.1s ease;
-    transition: 0.8s 0.1s ease;
+    -webkit-transition: 0.3s 0.1s ease;
+    transition: 0.3s 0.1s ease;
   }
   .main .container .cards .card:hover {
     -webkit-box-shadow: 6px 0px 20px #6e6c6ce5;
@@ -423,7 +500,7 @@ body {
     max-width: 750px;
   }
   .main .container .restuarants .section-heading .restaurent-heading .rating-heading .star-rating {
-    margin-left: 150px;
+    margin-left: 30px;
   }
   .main .container .cards .card {
     -ms-flex-preferred-size: 49%;
@@ -446,8 +523,8 @@ body {
   }
   .container .header .buttons .button-primary .text-button {
     display: none;
-    -webkit-transition: 0.5s all;
-    transition: 0.5s all;
+    -webkit-transition: 0.3s all;
+    transition: 0.3s all;
   }
   .container .header .buttons .button-cart {
     min-height: 20px;
@@ -458,8 +535,8 @@ body {
   }
   .container .header .buttons .button-cart .text-button {
     display: none;
-    -webkit-transition: 0.5s all;
-    transition: 0.5s all;
+    -webkit-transition: 0.3s all;
+    transition: 0.3s all;
   }
   .main .container .restuarants .section-heading .restaurent-heading .rating-heading {
     margin-left: 100px;
@@ -541,42 +618,34 @@ body {
   .container .header .buttons .button-cart .text-button {
     display: none;
   }
-  .main .container .promo {
-    background-size: 400px;
-    background-position: top -10px right -290px;
+  .main .container .restuarants .section-heading .section-title {
+    font-size: 24px;
   }
-  .main .container .promo .promo-text {
-    font-size: 12px;
-    max-width: 300px;
+  .main .container .restuarants .section-heading .restaurent-heading .rating-heading .star-rating {
+    margin-left: -20px;
   }
-  .main .container .promo .promo-title {
-    font-size: 30px;
-  }
-  .main .restuarants .section-heading .restaurent-heading .rating-heading .star-rating {
-    margin-left: -50px;
-  }
-  .main .restuarants .section-heading .restaurent-heading .price-heading {
+  .main .container .restuarants .section-heading .restaurent-heading .price-heading {
     display: none;
   }
-  .main .restuarants .section-heading .restaurent-heading .category-heading {
+  .main .container .restuarants .section-heading .restaurent-heading .category-heading {
     display: none;
   }
-  .main .restuarants .cards .card {
+  .main .container .cards .card {
     -ms-flex-preferred-size: 100%;
         flex-basis: 100%;
   }
-  .main .restuarants .cards .card .card-link .card-image {
+  .main .container .cards .card .card-link .card-image {
     width: 370px;
     height: 250px;
     -o-object-fit: cover;
        object-fit: cover;
     padding-left: 100px;
   }
-  .main .restuarants .cards .card .card-info {
+  .main .container .cards .card .card-info {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
   }
-  .main .restuarants .cards .card .card-buttons .button-primary .button-card-text {
+  .main .container .cards .card .card-buttons .button-primary .button-card-text {
     display: none;
   }
   .main .container .footer-block {
