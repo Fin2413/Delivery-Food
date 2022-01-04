@@ -15,6 +15,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Pushster&display=swap" rel="stylesheet">
     <link rel="icon" href="Icon/logo.ico">
     <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <link rel="stylesheet" href="css/Style.css">
 
 </head>
@@ -25,7 +26,7 @@
         <header class="header">
             <!--Логотип-->
             <a href="Index.html" class="logo">
-                <lord-icon class="gif-logo" src="https://cdn.lordicon.com/poblyvkl.json" trigger="loop" colors="primary:#121331,secondary:#08a88a" style="width:75px;height:75px">
+                <lord-icon class="gif-logo animate__animated animate__bounceInDown animate__delay-1s" src="https://cdn.lordicon.com/poblyvkl.json" trigger="loop" colors="primary:#121331,secondary:#08a88a" style="width:75px;height:75px">
                 </lord-icon>
                 <span class="logo-text">Delivery <br> Food</span>
             </a>
@@ -79,7 +80,7 @@
                 <!-- .cards -->
                 <div class="cards">
                     <!-- .card -->
-                    <div class="card">
+                    <div class="card animate__animated animate__swing">
                         <a href="PizzaPlus.html" class="card-link">
                             <img src="Img/pazzaplus.png" alt="image" class="card-image">
                             <!-- .card-text -->
@@ -106,7 +107,7 @@
                         <!-- /.card-text -->
                     </div>
                     <!-- /.card -->
-                    <div class="card">
+                    <div class="card animate__animated animate__swing">
                         <a href="Tanuki.html" class="card-link">
                             <img src="Img/tanuki.png" alt="image" class="card-image">
                             <!-- .card-text -->
@@ -133,8 +134,8 @@
                         <!-- /.card-text -->
                     </div>
                     <!-- /.card -->
-                    <div class="card">
-                        <a href="#" class="card-link">
+                    <div class="card animate__animated animate__swing">
+                        <a href="FoodBand.html" class="card-link">
                             <img src="Img/foodband.png" alt="image" class="card-image">
                             <!-- .card-text -->
                             <div class="card-text">
@@ -149,10 +150,10 @@
                                     <div class="rating">
                                         <lord-icon class="star-rating" src="https://cdn.lordicon.com/mdgrhyca.json" trigger="loop" delay="3000" colors="primary:#eeca66,secondary:#08a88a" style="width:22px;height:22px; top:-2px">
                                         </lord-icon>
-                                        4.5
+                                        4.3
                                     </div>
                                     <div class="price">От 2200 ₸</div>
-                                    <div class="category">Пицца</div>
+                                    <div class="category">Пицца / Суши / Лапша</div>
                                 </div>
                                 <!-- /.card-info -->
                             </div>
@@ -160,7 +161,7 @@
                         <!-- /.card-text -->
                     </div>
                     <!-- /.card -->
-                    <div class="card">
+                    <div class="card animate__animated animate__swing">
                         <a href="#" class="card-link">
                             <img src="Img/greedypizza.png" alt="image" class="card-image">
                             <!-- .card-text -->
@@ -187,7 +188,7 @@
                         <!-- /.card-text -->
                     </div>
                     <!-- /.card -->
-                    <div class="card">
+                    <div class="card animate__animated animate__swing">
                         <a href="#" class="card-link">
                             <img src="Img/pointfood.png" alt="image" class="card-image">
                             <!-- .card-text -->
@@ -214,7 +215,7 @@
                         <!-- /.card-text -->
                     </div>
                     <!-- /.card -->
-                    <div class="card">
+                    <div class="card animate__animated animate__swing">
                         <a href="#" class="card-link">
                             <img src="Img/pizzaburger.png" alt="image" class="card-image">
                             <!-- .card-text -->
@@ -276,8 +277,10 @@
     </footer>
     <!--/.Footer-->
 
+    <!--Подключение библиотек анимированых иконок-->
     <script src="https://cdn.lordicon.com/libs/mssddfmo/lord-icon-2.1.0.js"></script>
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/main.js"></script>
 
 </body>
 

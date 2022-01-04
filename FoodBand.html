@@ -8,11 +8,11 @@
 
     <!--Autor Ivashkin Egor-->
 
-    <title>Pizza Plus - Доставка еды на дом</title>
+    <title>FoodBand - Доставка еды на дом</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Pushster&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <link rel="icon" href="Icon/logo.ico">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
@@ -44,7 +44,7 @@
                         <span class="text-button">Войти</span>
                     </a>
                 </button>
-                <button class="button button-cart" id="cart-shopping">
+                <button class="button button-cart">
                     <a href="#" als="Кнопка корзина" class="button-link">
                             <lord-icon
                                 src="https://cdn.lordicon.com/slkvcfos.json"
@@ -65,18 +65,18 @@
         <div class="container">
             <section class="restuarants">
                 <div class="section-heading">
-                    <h2 class="section-title">Пицца плюс</h2>
-                    <lord-icon src="https://cdn.lordicon.com/jpdtnwas.json" trigger="loop" delay="1000" colors="primary:#121331,secondary:#08a88a" style="width:80px;height:80px">
+                    <h2 class="section-title">FoodBand</h2>
+                    <lord-icon src="https://cdn.lordicon.com/coqbeapw.json" trigger="loop" delay="1000" colors="primary:#121331,secondary:#08a88a" style="width:80px;height:80px">
                     </lord-icon>
                     <!--Рейтинг ресторана-->
                     <div class="restaurent-heading">
                         <div class="rating-heading">
                             <lord-icon src="https://cdn.lordicon.com/mdgrhyca.json" trigger="loop" delay="3000" colors="primary:#eeca66,secondary:#08a88a" style="width:22px;height:22px; top:-2px">
                             </lord-icon>
-                            4.5
+                            4.3
                         </div>
-                        <div class="price-heading">От 2000 ₸</div>
-                        <div class="category-heading">Пицца </div>
+                        <div class="price-heading">От 2200 ₸</div>
+                        <div class="category-heading">Пицца / Суши / Лапша</div>
                     </div>
                 </div>
                 <!-- .cards -->
@@ -84,19 +84,87 @@
                     <!-- .card -->
                     <div class="card animate__animated animate__swing">
                         <a href="#" class="card-link">
-                            <img src="Img/Restaurent dishes/Pizza/1614548225_20-p-pitstsa-na-belom-fone-38.jpg" alt="image" class="card-image">
+                            <img src="Img/Restaurent dishes/Sushi/Califoniya.png" alt="image" class="card-image">
                             <!-- .card-text -->
                             <div class="card-text">
                                 <!-- .card-heading -->
                                 <div class="card-heading">
-                                    <h3 class="card-title">Папперони</h3>
+                                    <h3 class="card-title">Калифорния лосось стандарт</h3>
                                 </div>
                                 <!-- /.card-heading -->
                                 <!--.card-info-->
                                 <div class="card-info">
-                                    <div class="ingredients">Колбаски, Чедр, соус песто, сладкий перец, тонкое тесто. </div>
+                                    <div class="ingredients">Рис, лосось, авокадо, огурец, майонез, икра масаго, водоросли нори.</div>
                                 </div>
                                 <!--/.card-info-->
+                                <!--.card-buttons-->
+                                <div class="card-buttons">
+                                    <button class="button button-primary">
+                                        <span class="button-card-text">В корзину</span>
+                                        <lord-icon
+                                            src="https://cdn.lordicon.com/dnoiydox.json"
+                                            trigger="hover"
+                                            colors="primary:#ffffff,secondary:#ffffff"
+                                            style="width:25px;height:25px">
+                                        </lord-icon>
+                                    </button>
+                                    <strong class="card-price-bold">1200 ₸</strong>
+                                </div>
+                                <!--/.card-buttons-->
+                        </a>
+                        </div>
+                        <!-- /.card-text -->
+                    </div>
+                    <!-- /.card -->
+                    <div class="card animate__animated animate__swing">
+                        <a href="#" class="card-link">
+                            <img src="Img/Restaurent dishes/Wok/1.1000x1000.png" alt="image" class="card-image-band-wok">
+                            <!-- .card-text -->
+                            <div class="card-text">
+                                <!-- .card-heading -->
+                                <div class="card-heading">
+                                    <h3 class="card-title">Лапша Вок с говядиной</h3>
+                                </div>
+                                <!-- /.card-heading -->
+                                <!-- .card-info -->
+                                <div class="card-info">
+                                    <div class="ingredients">Лапша, Говядина, Полугорикий перец, Корейская капуска, стручковая фасоль.</div>
+                                </div>
+                                <!-- /.card-info -->
+                                <!--.card-buttons-->
+                                <div class="card-buttons">
+                                    <button class="button button-primary">
+                                        <span class="button-card-text">В корзину</span>
+                                        <lord-icon
+                                            src="https://cdn.lordicon.com/dnoiydox.json"
+                                            trigger="hover"
+                                            colors="primary:#ffffff,secondary:#ffffff"
+                                            style="width:25px;height:25px">
+                                        </lord-icon>
+                                    </button>
+                                    <strong class="card-price-bold">1700 ₸</strong>
+                                </div>
+                                <!--/.card-buttons-->
+                            </div>
+                        </a>
+                        <!-- /.card-text -->
+                    </div>
+                    <!-- /.card -->
+                    <div class="card animate__animated animate__swing">
+                        <a href="#" class="card-link">
+                            <img src="Img/Restaurent dishes/Sushi/Cezar_.png" alt="image" class="card-image">
+                            <!-- .card-text -->
+                            <div class="card-text">
+                                <!-- .card-heading -->
+                                <div class="card-heading">
+                                    <h3 class="card-title">Цезарь маки хl</h3>
+                                </div>
+                                <!-- /.card-heading -->
+                                <!-- .card-info -->
+                                <div class="card-info">
+                                    <div class="ingredients">Рис, куриная грудка копченая, икра масаго, томат, айсберг, соус цезарь.</div>
+                                </div>
+                                <!-- /.card-info -->
                                 <!--.card-buttons-->
                                 <div class="card-buttons">
                                     <button class="button button-primary">
@@ -108,11 +176,45 @@
                                                 style="width:25px;height:25px">
                                             </lord-icon>
                                     </button>
-                                    <strong class="card-price-bold">2500 ₸</strong>
+                                    <strong class="card-price-bold">950 ₸</strong>
                                 </div>
                                 <!--/.card-buttons-->
+                            </div>
                         </a>
-                        </div>
+                        <!-- /.card-text -->
+                    </div>
+                    <!-- /.card -->
+                    <div class="card animate__animated animate__swing">
+                        <a href="#" class="card-link">
+                            <img src="Img/Restaurent dishes/Wok/2.1000x1000.png" alt="image" class="card-image-band-wok">
+                            <!-- .card-text -->
+                            <div class="card-text">
+                                <!-- .card-heading -->
+                                <div class="card-heading">
+                                    <h3 class="card-title">Лапша Вок с курицей</h3>
+                                </div>
+                                <!-- /.card-heading -->
+                                <!-- .card-info -->
+                                <div class="card-info">
+                                    <div class="ingredients">Лапша, Курица, Полугорикий перец, Корейская капуска, стручковая фасоль.</div>
+                                </div>
+                                <!-- /.card-info -->
+                                <!--.card-buttons-->
+                                <div class="card-buttons">
+                                    <button class="button button-primary">
+                                        <span class="button-card-text">В корзину</span>
+                                        <lord-icon
+                                            src="https://cdn.lordicon.com/dnoiydox.json"
+                                            trigger="hover"
+                                            colors="primary:#ffffff,secondary:#ffffff"
+                                            style="width:25px;height:25px">
+                                        </lord-icon>
+                                    </button>
+                                    <strong class="card-price-bold">1300 ₸</strong>
+                                </div>
+                                <!--/.card-buttons-->
+                            </div>
+                        </a>
                         <!-- /.card-text -->
                     </div>
                     <!-- /.card -->
@@ -135,14 +237,14 @@
                                 <div class="card-buttons">
                                     <button class="button button-primary">
                                         <span class="button-card-text">В корзину</span>
-                                            <lord-icon
-                                                src="https://cdn.lordicon.com/dnoiydox.json"
-                                                trigger="hover"
-                                                colors="primary:#ffffff,secondary:#ffffff"
-                                                style="width:25px;height:25px">
-                                            </lord-icon>
+                                        <lord-icon
+                                            src="https://cdn.lordicon.com/dnoiydox.json"
+                                            trigger="hover"
+                                            colors="primary:#ffffff,secondary:#ffffff"
+                                            style="width:25px;height:25px">
+                                        </lord-icon>
                                     </button>
-                                    <strong class="card-price-bold">3100 ₸</strong>
+                                    <strong class="card-price-bold">3000 ₸</strong>
                                 </div>
                                 <!--/.card-buttons-->
                             </div>
@@ -165,6 +267,7 @@
                                     <div class="ingredients">Томатный соус, Моцарелла, Томаты, Болгарский перец, Гауда </div>
                                 </div>
                                 <!-- /.card-info -->
+
                                 <!--.card-buttons-->
                                 <div class="card-buttons">
                                     <button class="button button-primary">
@@ -186,31 +289,65 @@
                     <!-- /.card -->
                     <div class="card animate__animated animate__swing">
                         <a href="#" class="card-link">
-                            <img src="Img/Restaurent dishes/Pizza/11.jpeg" alt="image" class="card-image">
+                            <img src="Img/Restaurent dishes/Wok/940f6fc0aab71a78ae3c86091dc633fe.jpg" alt="image" class="card-image-band-wok">
                             <!-- .card-text -->
                             <div class="card-text">
                                 <!-- .card-heading -->
                                 <div class="card-heading">
-                                    <h3 class="card-title">Грибная</h3>
+                                    <h3 class="card-title">Лапша Вок с морепродуктами </h3>
                                 </div>
                                 <!-- /.card-heading -->
                                 <!-- .card-info -->
                                 <div class="card-info">
-                                    <div class="ingredients">Сливочный соус, Моцарелла, Шампиньоны</div>
+                                    <div class="ingredients">Лапша, Морской коктель, стручковая фасоль, соевый соус</div>
                                 </div>
                                 <!-- /.card-info -->
                                 <!--.card-buttons-->
                                 <div class="card-buttons">
                                     <button class="button button-primary">
                                         <span class="button-card-text">В корзину</span>
-                                            <lord-icon
-                                                src="https://cdn.lordicon.com/dnoiydox.json"
-                                                trigger="hover"
-                                                colors="primary:#ffffff,secondary:#ffffff"
-                                                style="width:25px;height:25px">
-                                            </lord-icon>
+                                        <lord-icon
+                                            src="https://cdn.lordicon.com/dnoiydox.json"
+                                            trigger="hover"
+                                            colors="primary:#ffffff,secondary:#ffffff"
+                                            style="width:25px;height:25px">
+                                        </lord-icon>
                                     </button>
-                                    <strong class="card-price-bold">2300 ₸</strong>
+                                    <strong class="card-price-bold">3200 ₸</strong>
+                                </div>
+                                <!--/.card-buttons-->
+                            </div>
+                        </a>
+                        <!-- /.card-text -->
+                    </div>
+                    <!-- /.card -->
+                    <div class="card animate__animated animate__swing">
+                        <a href="#" class="card-link">
+                            <img src="Img/Restaurent dishes/Sushi/yasai.png" alt="image" class="card-image">
+                            <!-- .card-text -->
+                            <div class="card-text">
+                                <!-- .card-heading -->
+                                <div class="card-heading">
+                                    <h3 class="card-title">Ясай маки стандарт 185 г</h3>
+                                </div>
+                                <!-- /.card-heading -->
+                                <!-- .card-info -->
+                                <div class="card-info">
+                                    <div class="ingredients">Рис, помидор свежий, перец болгарский, авокадо, огурец, айсберг</div>
+                                </div>
+                                <!-- /.card-info -->
+                                <!--.card-buttons-->
+                                <div class="card-buttons">
+                                    <button class="button button-primary">
+                                        <span class="button-card-text">В корзину</span>
+                                        <lord-icon
+                                            src="https://cdn.lordicon.com/dnoiydox.json"
+                                            trigger="hover"
+                                            colors="primary:#ffffff,secondary:#ffffff"
+                                            style="width:25px;height:25px">
+                                        </lord-icon>
+                                    </button>
+                                    <strong class="card-price-bold">2200 ₸</strong>
                                 </div>
                                 <!--/.card-buttons-->
                             </div>
@@ -230,41 +367,7 @@
                                 <!-- /.card-heading -->
                                 <!-- .card-info -->
                                 <div class="card-info">
-                                    <div class="ingredients">Томатный соус, Моцарелла, Говяжий фарш, Итальянские травы.</div>
-                                </div>
-                                <!-- /.card-info -->
-                                <!--.card-buttons-->
-                                <div class="card-buttons">
-                                    <button class="button button-primary">
-                                        <span class="button-card-text">В корзину</span>
-                                            <lord-icon
-                                                src="https://cdn.lordicon.com/dnoiydox.json"
-                                                trigger="hover"
-                                                colors="primary:#ffffff,secondary:#ffffff"
-                                                style="width:25px;height:25px">
-                                            </lord-icon>
-                                    </button>
-                                    <strong class="card-price-bold">3200 ₸</strong>
-                                </div>
-                                <!--/.card-buttons-->
-                            </div>
-                        </a>
-                        <!-- /.card-text -->
-                    </div>
-                    <!-- /.card -->
-                    <div class="card animate__animated animate__swing">
-                        <a href="#" class="card-link">
-                            <img src="Img/Restaurent dishes/Pizza/1614548206_19-p-pitstsa-na-belom-fone-36.jpg" alt="image" class="card-image">
-                            <!-- .card-text -->
-                            <div class="card-text">
-                                <!-- .card-heading -->
-                                <div class="card-heading">
-                                    <h3 class="card-title">Мексиканская</h3>
-                                </div>
-                                <!-- /.card-heading -->
-                                <!-- .card-info -->
-                                <div class="card-info">
-                                    <div class="ingredients">Говядина, Куриное филе, Болгарский перец, Моцарелла</div>
+                                    <div class="ingredients">Томатный соус, Моцарелла, Говяжий фарш, Итальянские травы. </div>
                                 </div>
                                 <!-- /.card-info -->
 
@@ -279,14 +382,13 @@
                                                 style="width:25px;height:25px">
                                             </lord-icon>
                                     </button>
-                                    <strong class="card-price-bold">2600 ₸</strong>
+                                    <strong class="card-price-bold">3000 ₸</strong>
                                 </div>
                                 <!--/.card-buttons-->
                             </div>
                         </a>
                         <!-- /.card-text -->
                     </div>
-                    <!-- /.card -->
                 </div>
                 <!-- /.cards -->
             </section>
@@ -322,86 +424,12 @@
     </footer>
     <!--/.Footer-->
 
-    <!--.modal-->
-    <div class="modal">
-        <div class="modal-dialog  animate__animated animate__rubberBand">
-            <div class="modal-header">
-                <h3 class="modal-title">Корзина</h3>
-                <button class="close">
-                    <img src="Icon/close.svg" alt="close">
-                </button>
-            </div>
-            <div class="modal-body">
-                <div class="food-row">
-                    <span class="food-name">
-                        Мексиканская
-                    </span>
-                    <strong class="food-price">2600 ₸</strong>
-                    <div class="food-counter">
-                        <button class="counter-button"><lord-icon
-                            src="https://cdn.lordicon.com/rivoakkk.json"
-                            trigger="click"
-                            colors="primary:#121331,secondary:#08a88a"
-                            style="width:25px;height:25px">
-                        </lord-icon>
-                    </button>
-                        <span class="counter">2</span>
-                        <button class="counter-button"><lord-icon
-                            src="https://cdn.lordicon.com/mecwbjnp.json"
-                            trigger="click"
-                            colors="primary:#121331,secondary:#08a88a"
-                            style="width:25px;height:25px">
-                        </lord-icon>
-                    </button>
-                    </div>
-                </div>
-                <!-- /.foods-row -->
-                <div class="food-row">
-                    <span class="food-name">
-                        Грибная
-                    </span>
-                    <strong class="food-price">2300 ₸</strong>
-                    <div class="food-counter">
-                        <button class="counter-button"><lord-icon
-                            src="https://cdn.lordicon.com/rivoakkk.json"
-                            trigger="click"
-                            colors="primary:#121331,secondary:#08a88a"
-                            style="width:25px;height:25px">
-                        </lord-icon>
-                    </button>
-                        <span class="counter">1</span>
-                        <button class="counter-button"><lord-icon
-                            src="https://cdn.lordicon.com/mecwbjnp.json"
-                            trigger="click"
-                            colors="primary:#121331,secondary:#08a88a"
-                            style="width:25px;height:25px">
-                        </lord-icon>
-                    </button>
-                    </div>
-                </div>
-                <!-- /.foods-row -->
-            </div>
-
-            <div class="modal-footer">
-                <div class="modal-footer-price">
-                    <span class="pricatag">7500₸</span>
-                    <div class="footer-buttons">
-                        <div class="button-primary">Оформить заказ</div>
-                        <div class="button-cart">Отмена</div>
-                    </div>
-                </div>
-            </div>
-            <!-- /.modal-footer -->
-
-        </div>
-    </div>
-    <!-- /.modal -->
-
 
     <!--Подключение библиотек анимированых иконок-->
     <script src="https://cdn.lordicon.com/libs/mssddfmo/lord-icon-2.1.0.js"></script>
     <script src="js/wow.min.js"></script>
     <script src="js/main.js"></script>
+
 </body>
 
 </html>

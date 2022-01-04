@@ -215,10 +215,8 @@ body {
 }
 
 .main .container .restuarants .section-heading .restaurent-heading .category-heading {
-  text-overflow: ellipsis;
   overflow: hidden;
   white-space: nowrap;
-  max-width: 100px;
 }
 
 .cards {
@@ -270,6 +268,11 @@ body {
   height: 250px;
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+.cards .card .card-image-band-wok {
+  width: 55%;
+  margin-left: 100px;
 }
 
 .cards .card .card-text {
@@ -466,6 +469,194 @@ body {
 
 .footer .container .social-links .social-link:not(:last-child) {
   margin-right: 21px;
+}
+
+.modal {
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.4);
+  display: none;
+}
+
+.modal .animate__animated .animate__hinge {
+  display: none;
+}
+
+.is-open {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.is-open .modal-dialog {
+  margin: auto;
+  max-width: 780px;
+  width: 95%;
+  background: #FFFFFF;
+  border-radius: 5px;
+  padding: 40px 45px;
+}
+
+.is-open .modal-dialog .modal-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  margin-bottom: 45px;
+}
+
+.is-open .modal-dialog .close {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.is-open .modal-body {
+  margin-bottom: 52px;
+}
+
+.is-open .modal-body .food-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.is-open .modal-body .food-row .food-name {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 32px;
+}
+
+.is-open .modal-body .food-row .food-price {
+  margin-left: auto;
+  margin-right: 47px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 32px;
+}
+
+.is-open .modal-body .food-row .food-counter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.is-open .modal-body .food-row .food-counter .counter-button {
+  border: none;
+  background: none;
+}
+
+.is-open .modal-body .food-row .food-counter .counter-button:hover {
+  cursor: pointer;
+}
+
+.is-open .modal-footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.is-open .modal-footer .modal-footer-price {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 52px;
+}
+
+.is-open .modal-footer .modal-footer-price .pricatag {
+  padding: 20px 25px;
+  margin: auto;
+  margin-right: 277px;
+  background: #262626;
+  border-radius: 5px;
+  width: 100px;
+  height: 53px;
+  color: #ffffff;
+}
+
+.is-open .modal-footer .modal-footer-price .footer-buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.is-open .modal-footer .modal-footer-price .footer-buttons .button-primary {
+  background: #1890ff;
+  padding: 8px 26px;
+  border: 1px solid #d9d9d9;
+  -webkit-box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.0015);
+          box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.0015);
+  border-radius: 2px;
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 24px;
+  margin-right: 15px;
+  -webkit-transition: 0.3s 0.1s ease;
+  transition: 0.3s 0.1s ease;
+}
+
+.is-open .modal-footer .modal-footer-price .footer-buttons .button-primary:hover {
+  cursor: pointer;
+  background: darkorange;
+}
+
+.is-open .modal-footer .modal-footer-price .footer-buttons .button-cart {
+  padding: 8px 26px;
+  background: #ffffff;
+  border: 1px solid #d9d9d9;
+  -webkit-box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.0015);
+          box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.0015);
+  border-radius: 2px;
+  color: #302C34;
+  font-size: 16px;
+  line-height: 24px;
+  -webkit-transition: 0.3s 0.1s ease;
+  transition: 0.3s 0.1s ease;
+}
+
+.is-open .modal-footer .modal-footer-price .footer-buttons .button-cart:hover {
+  cursor: pointer;
+  background: darkorange;
+  color: #ffffff;
 }
 
 @media (max-width: 1366px) {
